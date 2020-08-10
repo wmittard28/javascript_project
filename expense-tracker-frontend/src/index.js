@@ -1,1 +1,3 @@
-console.log("testing...")
+window.addEventListener('DOMContentLoaded', (event) => {
+    const app = new App()
+});

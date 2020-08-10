@@ -1,11 +1,44 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-   Sample text - replace me!
-  </body>
+    <title>Smart Expense</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+
+    <script src="src/components/expense.js"></script>
+    <script src="src/components/item.js"></script>
+    <script src="src/components/app.js"></script>
+    <script src="src/components/expenses.js"></script>
+    <script src="src/components/items.js"></script>
+    <script src="src/adapters/ExpensesAdapter.js"></script>
+    <script src="src/adapters/ItemsAdapter.js"></script>
+    <script src="src/index.js"></script>
+
+</head>
+
+<body>
+
+    <div class="card">
+        <h1>Smart Expense</h1>
+        <div id="new-expense-container">
+            <form id="new-expense-form">
+                <label>Create a new expense</label>
+                <input type="text" id="new-expense-name" placeholder="Expense name" />
+                <input type="submit" id="expense-btn" value="Submit" />
+            </form>
+            <div id="expense-content">
+                <div class="row">
+                    <div class="column">
+                        <div id="expenses-container">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
-<script type="application/javascript" src="src/index.js" charset="UTF-8"></script>

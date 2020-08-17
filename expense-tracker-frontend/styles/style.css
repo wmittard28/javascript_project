@@ -3,18 +3,18 @@
   }
 
   body {
-    background: #93b7fa;
-    font-family: "Arial Black", Gadget, sans-serif;
+    background: hsl(220, 2%, 72%);
+    font-family: "Bangla Mn", Gadget, sans-serif;
     line-height: 1.8;
   }
   h1 {
     text-align: center;
-    color: rgba(7, 7, 7, 0.87)
+    color: rgb(248, 245, 245)
   }
 
-  h2 {
+  label {
     text-align: center;
-    color: rgba(7, 7, 7, 0.87)
+    color: rgb(255, 251, 251)
   }
 
   .column {
@@ -36,33 +36,33 @@
 
   .card {
     padding: 40px;
-    background: rgb(241, 237, 237);
+    background: rgb(103, 179, 250);
     max-width: 1000px;
     border-radius: 5px;
     margin: 10px auto;
     box-shadow:
-          0  5px 10px rgba(154,160,185,0.05),
-          0 15px 40px rgba(114, 122, 155, 0.2);
+          0  5px 10px rgb(245, 246, 248),
+          0 15px 40px rgb(247, 248, 250);
   }
 
   .item-card {
     padding: 60px;
-    background: rgb(141, 184, 235);
+    background:  hsl(220, 2%, 72%);
     max-width: 1000px;
     border-radius: 50px;
     margin: 10px auto;
     box-shadow:
-          0  5px 10px rgba(154,160,185,0.05),
-          0 5px 10px rgba(114, 122, 155, 0.2);
+          0  5px 10px rgba(243, 243, 247, 0.959),
+          0 5px 10px rgb(240, 240, 243);
   }
 
   .highlight {
     font-weight: 900;
-    color: rgb(3, 3, 3);
+    color: rgb(253, 251, 251);
   }
 
     a {
-      color: #097659;
+      color: #fbfdfd;
     }
 
     input {
@@ -84,7 +84,7 @@
     }
 
     .editable {
-      border: 1px solid black;
+      border: 1px solid rgb(252, 248, 248);
       padding: 20px;
     }
 
@@ -95,16 +95,16 @@
     }
 
     td, th {
-      border: 1px solid #dddddd;
+      border: 1px solid #f1ecec;
       text-align: left;
       padding: 8px;
     }
 
-    tr:nth-child(even) {
-      background-color: #d0dcfd;
+    tr {
+      background-color: #bdbdc2e0;
     }
 
-    #stores-content {
+    #expenses-content {
       display: grid;
       grid-template-columns: 2fr 1fr;
       grid-gap: 10px;
@@ -119,11 +119,11 @@
       width: 100%;
     }
 
-    #new-store-form {
+    #new-expense-form {
       text-align: center
     }
 
-    #stores-container li {
+    #expenses-container li {
       list-style-type: none;
     }
 

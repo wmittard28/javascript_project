@@ -1,0 +1,3 @@
+class Expense < ApplicationRecord
+    has_many :items
+end
